@@ -4,12 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
+I am an experienced software developer and Linux systems administrator with a passion for developing high quality and scalable applications that are easy to deploy and maintain. 
 
 TODO *** rewrite this crud
-Currently I am studying Computer Science with Mobile and Secure Systems at the University of
-Southampton and I am looking to gain experience in an enterprise environment, to learn new skills
-and improve upon my existing ones.
-
 My strengths are;
 
 - have a good eye for detail
@@ -35,10 +32,11 @@ technologies _(HTML+CSS/Javascript/REST)_ and is keen on development automation 
 Solid knowledge of Linux most notably in Ubuntu, Archlinux, Centos. Setup and maintained a large
 number of software solutions including but not limited to Visualization/sandboxing technologies
 _(QEMU/libvirt, Openstack, XenServer, Docker, CoreOS)_, user managment/authentication _(LDAP,
-FreeIPA, Kerberos)_, web servers _(Nginx, Apache, Lighttpd)_, database _(MySQL, Postgres)_, big data
-solutions _(Hadoop, Elasticsearch, Cassandra)_, continuous integration services _(Bamboo, Jenkins)_.
-Strong knowledge of networking technologies _(ssh, ftp, DNS, DHCP, TCP/IP, VLAN)_. Experience in
-data center Automation _(Chef)_ and software packaging _(rpms, arch packages, docker images)_.
+FreeIPA, Kerberos)_, web servers _(Nginx, Apache, Lighttpd)_, datastores _(MySQL, Redis, Mongodb,
+Postgres)_, queuing systems (Rabitmq), big data solutions _(Hadoop, Elasticsearch, Cassandra)_,
+continuous integration services _(Bamboo, Jenkins)_. Strong knowledge of networking technologies
+_(ssh, ftp, DNS, DHCP, TCP/IP, VLAN)_. Experience in data center Automation _(Chef)_ and software
+packaging _(rpms, arch packages, docker images)_.
 
 # Employment History
 
