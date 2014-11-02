@@ -75,39 +75,20 @@ St Joseph’s RC High School, Mathematics (A), Physics (B), Chemistry (D).
 Interests
 =========
 
-\cvitem{SoutHACKton}{I belong to a local maker-space where I am involved in
-software and hardware projects, which are mainly focused around the Raspberry
-Pi and Arduino boards.}
+SoutHACKton: I belong to a local maker-space where I am involved in software and hardware projects, which are mainly focused around the Raspberry Pi and Arduino boards.
 
-\cvitem{CSLib}{As a member of the Computer Science Library society at the
-University of Southampton I am responsible for helping to deploy and maintain a
-variety of services, as well as, drive interest in various software and
-hardware projects including ones with the raspberry pi, the AR Drone and
-Kinect, in addition to our own in house package management system.}
+CSLib: As a member of the Computer Science Library society at the University of Southampton I am responsible for helping to deploy and maintain a variety of services, as well as, drive interest in various software and hardware projects including ones with the raspberry pi, the AR Drone and Kinect, in addition to our own in house package management system.
 
-\cvitem{SOWN}{ I help to maintain a networking infrastructure around
-Southampton, as a member of the SOWN (Southampton Open Wireless Network
-society), providing students with better wireless coverage on and off campus
-via the Eduroam network.}
+SOWN:  I help to maintain a networking infrastructure around Southampton, as a member of the SOWN (Southampton Open Wireless Network society), providing students with better wireless coverage on and off campus via the Eduroam network.
 
-\cvitem{HantsLUG}{As a member of the Hampshire Linux User Group, I regularly
-attend meetings to discuss Linux based topics and help other members with Linux
-based problems.}
+HantsLUG: As a member of the Hampshire Linux User Group, I regularly attend meetings to discuss Linux based topics and help other members with Linux based problems.
 
-\cvitem{Opensource software}{I enjoy programming and contributing to the open
-source community. I have developed two projects in the KDE environment which
-have been packaged in various Linux distributions, including OpenSUSE and
-Fedora.}
+Opensource software: I enjoy programming and contributing to the open source community. I have developed two projects in the KDE environment which have been packaged in various Linux distributions, including OpenSUSE and Fedora.
 
-\cvitem{Linux Support Volunteer}{Regularly I attend Linux support forums and IRC
-channels to help users solve a wide variety of problems they encounter in a
-friendly and informative environment.}
+Linux Support Volunteer: Regularly I attend Linux support forums and IRC channels to help users solve a wide variety of problems they encounter in a friendly and informative environment.
 
-\cvitem{Archery}{As a member of Southampton University Archery Society, I
-helped to teach other club members, as well as improving my own skills.}
+Archery: As a member of Southampton University Archery Society, I helped to teach other club members, as well as improving my own skills.
 
-\cvitem{Sculpting}{I maintain an active interest in sculpting and clay
-modelling. I used clay models to produce a short animation.}
+Sculpting: I maintain an active interest in sculpting and clay modelling. I used clay models to produce a short animation.
 
-\cvitem{Culinary Crafts}{I have developed an interest cooking and baking and
-particularly enjoy trying different recipes for bread.}
+Culinary Crafts: I have developed an interest cooking and baking and particularly enjoy trying different recipes for bread.
