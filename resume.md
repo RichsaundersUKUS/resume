@@ -4,9 +4,8 @@ title: Resume
 permalink: /resume/
 ---
 
-Personal Profile
-================
 
+TODO *** rewrite this crud
 Currently I am studying Computer Science with Mobile and Secure Systems at the University of
 Southampton and I am looking to gain experience in an enterprise environment, to learn new skills
 and improve upon my existing ones.
@@ -20,9 +19,9 @@ My strengths are;
   command line and graphical on a variety of different operating
   systems especially on Linux based systems
 - able to work effectively both alone and as part of a team
+***
 
-Technical skills
-================
+# Technical skills
 
 ## Software design and implementation
 
@@ -41,24 +40,34 @@ solutions _(Hadoop, Elasticsearch, Cassandra)_, continuous integration services 
 Strong knowledge of networking technologies _(ssh, ftp, DNS, DHCP, TCP/IP, VLAN)_. Experience in
 data center Automation _(Chef)_ and software packaging _(rpms, arch packages, docker images)_.
 
-Employment History
-==================
+# Employment History
 
-## SwitchConcepts
+### Switch Concepts Lt.
 
-### Linux Systems Administrator/Software Developer (2013--Present)
+#### Linux Systems Administrator/Software Developer (2013--Present)
 
-## University of Southampton
+TODO
+***
+Chef
+Test pages
+Log system
+Atlassian software
+Packaging
+Metrics system
+Freeipa
+Set up hadoop cluster
+***
 
-### Networking Internship (July 2011--September 2011)
+### University of Southampton
+
+#### Networking Internship (July 2011--September 2011)
 
 I was responsible for developing and rolling out a Eduroam wireless network across campus, which
 involved deploying a FreeRadius and MySQL servers, as well as, configuring a Cisco Wireless
 Controller, Cisco switches and flashing access points. I also developed a web server to display
 stats and view the logs which are stored in the MySQL database.
 
-Education
-=========
+# Education
 
 2009--12
 Computer Science with Mobile and Secure Systems (Bsc),
@@ -72,8 +81,9 @@ University of Southampton, Part I.
 A-Levels,
 St Joseph’s RC High School, Mathematics (A), Physics (B), Chemistry (D).
 
-Interests
-=========
+# Interests
+
+TODO *** Shorten this ***
 
 SoutHACKton: I belong to a local maker-space where I am involved in software and hardware projects, which are mainly focused around the Raspberry Pi and Arduino boards.
 
