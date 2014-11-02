@@ -60,10 +60,17 @@ stats and view the logs which are stored in the MySQL database.
 Education
 =========
 
- University of Southampton University of
-Southampton Part I (61% Final mark) St Joseph’s
-RC High School Mathematics (A), Physics (B), Chemistry
-(D)
+2009--12
+Computer Science with Mobile and Secure Systems (Bsc),
+University of Southampton.
+
+2007--2008
+Physics and Astronomy,
+University of Southampton, Part I.
+
+2005--2007
+A-Levels,
+St Joseph’s RC High School, Mathematics (A), Physics (B), Chemistry (D).
 
 Interests
 =========
