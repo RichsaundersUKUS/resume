@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Arduino Powered Rover
 ---
 
 Over the past couple of weeks I have been developing an arduino powered autonomous rover.

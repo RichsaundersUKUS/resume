@@ -1,5 +1,6 @@
 ---
 layout: post
+title: XBee Configuration
 ---
 
 For my third year project I will be using a bunch of XBee connected to various devices, this post

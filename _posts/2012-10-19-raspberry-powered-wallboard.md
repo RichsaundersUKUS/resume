@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Raspberry Powered Wallboard
 ---
 
 Having information displayed on a wall or monitor in an office or other public space can be very

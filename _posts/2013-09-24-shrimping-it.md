@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Shrimping it
 ---
 
 The arduino platform is a great platform to work with, it is easy to code for and has a nice
