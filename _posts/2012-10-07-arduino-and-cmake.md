@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Arduino and Cmake
 ---
 
 The arduino is a great platform for embedded development and the ide it comes with is a good
