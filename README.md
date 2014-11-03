@@ -1,3 +1,3 @@
-# [Disconnected Systems blog](disconnected.systems)
+# [Disconnected Systems blog](http://disconnected.systems)
 
 Based off [Jekyll Now](barryclark/jekyll-now)
