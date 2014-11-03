@@ -4,23 +4,25 @@ title: Resume
 permalink: /resume/
 ---
 
-I am an experienced software developer and Linux systems administrator with a passion for developing high quality and scalable applications that are easy to deploy and maintain. 
+> This resume is still a work in progress and not yet completed, incomplete sections are marked as such.
+> - [ ] Expand this intro
+> Points to include
+> - [ ] have a good eye for detail
+> - [ ] quick to grasp new ideas and concepts
+> - [ ] able to develop innovative and creative solutions to problems
+> - [ ] confident working in a wide range of environments, including both
+>   command line and graphical on a variety of different operating
+>   systems especially on Linux based systems
+> - [ ] able to work effectively both alone and as part of a team***
 
-TODO *** rewrite this crud
-My strengths are;
+I am an experienced software developer and Linux systems administrator with a passion for developing high quality and scalable applications that are easy to deploy and maintain.
 
-- have a good eye for detail
-- quick to grasp new ideas and concepts
-- able to develop innovative and creative solutions to problems
-- confident working in a wide range of environments, including both
-  command line and graphical on a variety of different operating
-  systems especially on Linux based systems
-- able to work effectively both alone and as part of a team
-***
 
 # Technical skills
 
 ## Software design and implementation
+> Work in progress
+> - [ ] Restructure this section
 
 Able to work alone or as part of a larger team. Big fan of Agile methodologies and continuous
 integration and deployment. Enjoys writing Python/C++/Nodejs with an active interest in
@@ -28,6 +30,8 @@ GoLang/QtQuick and is also able to work with programs in Java/PHP/Ruby. Good kno
 technologies _(HTML+CSS/Javascript/REST)_ and is keen on development automation _(Vagrant/Chef)_.
 
 ## Linux administration
+> Work in progress
+> - [ ] Restructure this section
 
 Solid knowledge of Linux most notably in Ubuntu, Archlinux, Centos. Setup and maintained a large
 number of software solutions including but not limited to Visualization/sandboxing technologies
@@ -44,17 +48,47 @@ packaging _(rpms, arch packages, docker images)_.
 
 #### Linux Systems Administrator/Software Developer (2013--Present)
 
-TODO
-***
-Chef
-Test pages
-Log system
-Atlassian software
-Packaging
-Metrics system
-Freeipa
-Set up hadoop cluster
-***
+> Work in progress
+> - [ ] Review this section
+> - [ ] See if there is a better way to layout this section
+
+During MySQL time at Switch Concepts I have worked on a large variety of project.
+
+**Automate deployment of services**
+> - [ ] Rewrite this
+
+wrote chef recipes to automate the deployment of their main product.
+
+**Centralized Logging system**  
+Setup a fluentd/elasticsearch/kibana stack for thousands of servers to log to giving a single place
+where all logs can be viewed and allow problems to be detected that would have otherwise gone
+unnoticed.
+
+**Consistent development environment**  
+Ported a number of components to work under vagrant to greatly simplify setting up the development
+environment and to ensure it closely matched the production environment.
+
+**Continuous Integration Testing**  
+Setup bamboo and stash and help to configure their automated testing suite
+
+**Packaging components**  
+Re-factored and improved the build systems of various components in order to support packaging each
+component into rpms greatly simplifying the deployment of these components. Setup a repository to
+distributed these rpm with an api so that automated build system can upload to them.
+
+**Metrics system**  
+Help to implement parts of a large scale distributed metrics collection and visualization system
+capable of collecting metrics hundreds of metrics from thousands of servers ever minute.
+
+**Centralize authentication and user management**  
+Setup and maintain a set of FreeIPA (kerberos/openldap) nodes and helped to port most of our
+internal to authenticate against it dramatically simplifying user management and increasing security
+of our infrastructure.
+
+**Hadoop cluster**  
+Set up and help to maintain a hadoop cluster to capture raw data from our core product that is now
+used as part of business analytics that help drive the business forward.
+
 
 ### University of Southampton
 
@@ -80,8 +114,8 @@ A-Levels,
 St Joseph’s RC High School, Mathematics (A), Physics (B), Chemistry (D).
 
 # Interests
-
-TODO *** Shorten this ***
+> Work in progress
+> - [ ] Shorten this section into a brief summary
 
 SoutHACKton: I belong to a local maker-space where I am involved in software and hardware projects, which are mainly focused around the Raspberry Pi and Arduino boards.
 
