@@ -5,6 +5,9 @@ permalink: /resume/
 ---
 
 > This resume is still a work in progress and not yet completed, incomplete sections are marked as such.
+
+---
+
 > - [ ] Expand this intro
 > Points to include
 > - [ ] have a good eye for detail
@@ -15,8 +18,10 @@ permalink: /resume/
 >   systems especially on Linux based systems
 > - [ ] able to work effectively both alone and as part of a team***
 
-I am an experienced software developer and Linux systems administrator with a passion for developing high quality and scalable applications that are easy to deploy and maintain.
+An experienced software developer and Linux systems administrator with a passion for developing high
+quality and scalable applications and infrastructure.
 
+---
 
 # Technical skills
 
@@ -42,6 +47,8 @@ continuous integration services _(Bamboo, Jenkins)_. Strong knowledge of network
 _(ssh, ftp, DNS, DHCP, TCP/IP, VLAN)_. Experience in data center Automation _(Chef)_ and software
 packaging _(rpms, arch packages, docker images)_.
 
+## Personal skills
+
 # Employment History
 
 ### Switch Concepts Lt.
@@ -59,6 +66,11 @@ During MySQL time at Switch Concepts I have worked on a large variety of project
 
 wrote chef recipes to automate the deployment of their main product.
 
+Re-factored and improved the build systems of various components to support packaging into rpms
+greatly simplifying the deployment of these components. Setup a repository to distributed these rpm
+with an api so that automated build system can upload to them.
+
+
 **Centralized Logging system**  
 Setup a fluentd/elasticsearch/kibana stack for thousands of servers to log to giving a single place
 where all logs can be viewed and allow problems to be detected that would have otherwise gone
@@ -70,11 +82,6 @@ environment and to ensure it closely matched the production environment.
 
 **Continuous Integration Testing**  
 Setup bamboo and stash and help to configure their automated testing suite
-
-**Packaging components**  
-Re-factored and improved the build systems of various components in order to support packaging each
-component into rpms greatly simplifying the deployment of these components. Setup a repository to
-distributed these rpm with an api so that automated build system can upload to them.
 
 **Metrics system**  
 Help to implement parts of a large scale distributed metrics collection and visualization system
