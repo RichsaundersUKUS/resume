@@ -1,143 +1,18 @@
 ---
 layout: page
 title: Resume
-permalink: /resume/
 ---
 
 > This resume is still a work in progress and not yet completed, incomplete sections are marked as such.
 
----
+{% include resume/personal-statement.md %}
 
-> - [ ] Expand this intro
-> Points to include
-> - [ ] have a good eye for detail
-> - [ ] quick to grasp new ideas and concepts
-> - [ ] able to develop innovative and creative solutions to problems
-> - [ ] confident working in a wide range of environments, including both
->   command line and graphical on a variety of different operating
->   systems especially on Linux based systems
-> - [ ] able to work effectively both alone and as part of a team***
+{% include resume/technical-skills.md %}
 
-An experienced software developer and Linux systems administrator with a passion for developing high
-quality and scalable applications and infrastructure.
+{% include resume/personal-skills.md %}
 
----
+{% include resume/employment.md %}
 
-# Technical skills
+{% include resume/education.md %}
 
-## Software design and implementation
-> Work in progress
-> - [ ] Restructure this section
-
-Able to work alone or as part of a larger team. Big fan of Agile methodologies and continuous
-integration and deployment. Enjoys writing Python/C++/Nodejs with an active interest in
-GoLang/QtQuick and is also able to work with programs in Java/PHP/Ruby. Good knowledge of web
-technologies _(HTML+CSS/Javascript/REST)_ and is keen on development automation _(Vagrant/Chef)_.
-
-## Linux administration
-> Work in progress
-> - [ ] Restructure this section
-
-Solid knowledge of Linux most notably in Ubuntu, Archlinux, Centos. Setup and maintained a large
-number of software solutions including but not limited to Visualization/sandboxing technologies
-_(QEMU/libvirt, Openstack, XenServer, Docker, CoreOS)_, user managment/authentication _(LDAP,
-FreeIPA, Kerberos)_, web servers _(Nginx, Apache, Lighttpd)_, datastores _(MySQL, Redis, Mongodb,
-Postgres)_, queuing systems (Rabitmq), big data solutions _(Hadoop, Elasticsearch, Cassandra)_,
-continuous integration services _(Bamboo, Jenkins)_. Strong knowledge of networking technologies
-_(ssh, ftp, DNS, DHCP, TCP/IP, VLAN)_. Experience in data center Automation _(Chef)_ and software
-packaging _(rpms, arch packages, docker images)_.
-
-## Personal skills
-
-# Employment History
-
-### Switch Concepts Lt.
-
-#### Linux Systems Administrator/Software Developer (2013--Present)
-
-> Work in progress
-> - [ ] Review this section
-> - [ ] See if there is a better way to layout this section
-
-During MySQL time at Switch Concepts I have worked on a large variety of project.
-
-**Automate deployment of services**
-> - [ ] Rewrite this
-
-wrote chef recipes to automate the deployment of their main product.
-
-Re-factored and improved the build systems of various components to support packaging into rpms
-greatly simplifying the deployment of these components. Setup a repository to distributed these rpm
-with an api so that automated build system can upload to them.
-
-
-**Centralized Logging system**  
-Setup a fluentd/elasticsearch/kibana stack for thousands of servers to log to giving a single place
-where all logs can be viewed and allow problems to be detected that would have otherwise gone
-unnoticed.
-
-**Consistent development environment**  
-Ported a number of components to work under vagrant to greatly simplify setting up the development
-environment and to ensure it closely matched the production environment.
-
-**Continuous Integration Testing**  
-Setup bamboo and stash and help to configure their automated testing suite
-
-**Metrics system**  
-Help to implement parts of a large scale distributed metrics collection and visualization system
-capable of collecting metrics hundreds of metrics from thousands of servers ever minute.
-
-**Centralize authentication and user management**  
-Setup and maintain a set of FreeIPA (kerberos/openldap) nodes and helped to port most of our
-internal to authenticate against it dramatically simplifying user management and increasing security
-of our infrastructure.
-
-**Hadoop cluster**  
-Set up and help to maintain a hadoop cluster to capture raw data from our core product that is now
-used as part of business analytics that help drive the business forward.
-
-
-### University of Southampton
-
-#### Networking Internship (July 2011--September 2011)
-
-I was responsible for developing and rolling out a Eduroam wireless network across campus, which
-involved deploying a FreeRadius and MySQL servers, as well as, configuring a Cisco Wireless
-Controller, Cisco switches and flashing access points. I also developed a web server to display
-stats and view the logs which are stored in the MySQL database.
-
-# Education
-
-2009--12
-Computer Science with Mobile and Secure Systems (Bsc),
-University of Southampton.
-
-2007--2008
-Physics and Astronomy,
-University of Southampton, Part I.
-
-2005--2007
-A-Levels,
-St Joseph’s RC High School, Mathematics (A), Physics (B), Chemistry (D).
-
-# Interests
-> Work in progress
-> - [ ] Shorten this section into a brief summary
-
-SoutHACKton: I belong to a local maker-space where I am involved in software and hardware projects, which are mainly focused around the Raspberry Pi and Arduino boards.
-
-CSLib: As a member of the Computer Science Library society at the University of Southampton I am responsible for helping to deploy and maintain a variety of services, as well as, drive interest in various software and hardware projects including ones with the raspberry pi, the AR Drone and Kinect, in addition to our own in house package management system.
-
-SOWN:  I help to maintain a networking infrastructure around Southampton, as a member of the SOWN (Southampton Open Wireless Network society), providing students with better wireless coverage on and off campus via the Eduroam network.
-
-HantsLUG: As a member of the Hampshire Linux User Group, I regularly attend meetings to discuss Linux based topics and help other members with Linux based problems.
-
-Opensource software: I enjoy programming and contributing to the open source community. I have developed two projects in the KDE environment which have been packaged in various Linux distributions, including OpenSUSE and Fedora.
-
-Linux Support Volunteer: Regularly I attend Linux support forums and IRC channels to help users solve a wide variety of problems they encounter in a friendly and informative environment.
-
-Archery: As a member of Southampton University Archery Society, I helped to teach other club members, as well as improving my own skills.
-
-Sculpting: I maintain an active interest in sculpting and clay modelling. I used clay models to produce a short animation.
-
-Culinary Crafts: I have developed an interest cooking and baking and particularly enjoy trying different recipes for bread.
+{% include resume/intrests.md %}
