@@ -8,6 +8,16 @@
 > - [ ] Review this section
 > - [ ] See if there is a better way to layout this section
 
+ Responsible for developing and deploying internal tools and infrastructure to run and support the platform as well as to imvrove the application developers productivity and help to increase the reliability of the product.
+
+### Achevments
+- Ported the core product to chef drastically simplfing creation of new nodes
+- Deployed a ci server to enable both unit testing on every push as well as full end to end testing during the release process.
+- Built a system backed by cassandra to collect hundreds of metrics from thousands on nodes every minute to enable analytics on system performance and alerting of problems.
+- setup a 60tb haddop cluster that stores raw impressions logs from over 1000 nodes that are used to make critical business decisions on a daily basis.
+
+---
+
 During MySQL time at Switch Concepts I have worked on a large variety of project.
 
 **Automate deployment of services**
