@@ -1,0 +1,74 @@
+---
+layout: page
+title: Password Trainer
+---
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+<script>
+var passwordTrainer = angular.module('passwordTrainer', [], function($interpolateProvider) {
+  $interpolateProvider.startSymbol('((');
+  $interpolateProvider.endSymbol('))');
+});
+
+passwordTrainer.controller('PassTrainCtrl', function ($scope) {
+  $scope.result = null;
+  $scope.tries = 0;
+  $scope.successes = 0;
+  $scope.submit = function() {
+    $scope.result = $scope.currentPassword === this.masterPassword;
+    $scope.tries++;
+    if ($scope.result) {
+      $scope.successes++;
+    } else {
+
+    }
+    this.currentPassword = "";
+  };
+
+  $scope.reset = function() {
+    $scope.result = null;
+    $scope.tries = 0;
+    $scope.successes = 0;
+    $scope.masterPassword = "";
+    $scope.currentPassword = "";
+  }
+
+  $scope.placeholder = function() {
+    if ($result === false) {
+      return "wrong"
+    }
+    return "password"
+  }
+});
+</script>
+<section ng-app="passwordTrainer" class="loginform cf">
+  <form ng-controller="PassTrainCtrl" ng-submit="submit()">
+    <p>Enter a master password, then try to match it in the password field.</p>
+    <input id="massterPassword"
+      type="((!showMasterPassword ? 'password' : 'text'))"
+      ng-model="masterPassword"
+      placeholder="master password"
+      autocomplete="off"
+      size="75"
+      required>
+    <input id="masterPasswordCheckbox"
+      type="checkbox"
+      ng-model="showMasterPassword">
+    <label for="masterPasswordCheckbox">Show</label><br/>
+    <input id="currentPassword"
+      type="((!showCurrentPassword ? 'password' : 'text'))"
+      ng-model="currentPassword"
+      placeholder="((result === false ? 'wrong' : 'password'))"
+      autocomplete="off"
+      size="75"
+      required>
+    <input id="currentPasswordCheckbox"
+      type="checkbox"
+      ng-model="showCurrentPassword">
+    <label for="currentPasswordCheckbox">Show</label><br/>
+    <input type="submit" id="check" value="Check" />
+    <input type="button" ng-click="reset()" id="reset" value="Reset" /><br/><br/>
+    <span>Tries: ((tries))</span><br/>
+    <span>Successes: ((successes))</span><br/>
+    <span>Failures: ((tries - successes))</span>
+  </form>
+</section>
