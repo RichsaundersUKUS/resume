@@ -1,6 +1,6 @@
 # Education
 
-2009--12
+2009--2012
 Computer Science with Mobile and Secure Systems (Bsc),
 University of Southampton.
 
