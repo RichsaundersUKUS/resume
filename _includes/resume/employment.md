@@ -4,7 +4,7 @@
 
 #### Linux Systems Administrator/Software Developer (2013--Present)
 
-**Automation of development and deployment**
+##### Automation of development and deployment
 
 * Worked end to end in automating the development enviroment, testing and deployment of the adserver and supporting components.
 * Re-factored and improved various components to better support automated deployment and packaging.
@@ -12,7 +12,7 @@
 * Created a developer box using vagrant and chef giving developers an easly recreatable environment to work in that closly matched production systems.
 * Deployed a ci server to automatically run unit and intergration tests.
 
-**Security and System Managment Improvments**
+##### Security and System Managment Improvments
 
 * Setup and maintain a set of FreeIPA (kerberos/openldap) nodes and helped to port most of our
 internal to authenticate against it dramatically simplifying user management and increasing security
@@ -20,7 +20,7 @@ of our infrastructure.
 * Identified and fixed numerous security holes in both infrastructure and applications.
 * Reimplmented legacy systems with more moderen technologies and coding standards lowering the cost of maintance and allowing the systems to be automatically deployed.
 
-**Application Performance/Metrics Solution**
+##### Application Performance/Metrics Solution
 
 * Help to implement parts of a large scale distributed metrics collection and visualization system
 capable of collecting metrics hundreds of metrics from thousands of servers ever minute.
@@ -28,7 +28,7 @@ capable of collecting metrics hundreds of metrics from thousands of servers ever
 where all logs can be viewed and allow problems to be detected that would have otherwise gone
 unnoticed.
 
-**Business Analytics Solution**
+##### Business Analytics Solution
 
 * Setup a 60tb haddop cluster that stores raw impression logs from over a thousand nodes that are used to make critical business decisions on a daily basis.
 
