@@ -16,5 +16,3 @@ title: Resume
 {% include resume/volunteering.md %}
 
 {% include resume/education.md %}
-
-{% include resume/intrests.md %}
