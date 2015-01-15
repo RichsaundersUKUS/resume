@@ -4,17 +4,12 @@ description: Programming, Linux and all things Open Source
 url: http://disconnected.systems
 baseurl: /resume
 
-disqus: disconsys
-google_analytics: UA-57006875-1
-
+#disqus: disconsys
+#google_analytics: UA-57006875-1
 
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
-
-sass:
-  sass_dir: _scss
-  style: :expanded
 
 gems:
   - jemoji
