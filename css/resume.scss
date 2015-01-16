@@ -6,10 +6,6 @@ html, body {
 }
 
 /* Move down content because we have a fixed navbar that is 50px tall */
-.special, .special .jumbotron {
-  height: 100%;
-}
-
 .jumbotron {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -17,4 +13,34 @@ html, body {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .container h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255,255,255,0.35);
+  display: inline-block;
+}
+
+.jumbotron .container > * {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 20px;
 }
