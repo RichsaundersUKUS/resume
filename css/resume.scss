@@ -1,8 +1,20 @@
 ---
 ---
 
+html, body {
+  height: 100%;
+}
+
 /* Move down content because we have a fixed navbar that is 50px tall */
-jumbotron {
+.special, .special .jumbotron {
+  height: 100%;
+}
+
+.jumbotron {
   padding-top: 50px;
   padding-bottom: 20px;
+  background: url({{ site.baseurl }}/img/cover1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
