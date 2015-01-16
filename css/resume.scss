@@ -7,9 +7,7 @@ html, body {
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 .jumbotron {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  background: url({{ site.baseurl }}/img/cover1.jpg) no-repeat center center;
+  background: no-repeat center right fixed  url({{ site.baseurl }}/img/cover1.jpg);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -33,6 +31,35 @@ html, body {
 .jumbotron .container > * {
   text-align: center;
   color: #FFFFFF;
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+      transition-property: opacity;
+    }
+
+    .active {
+      opacity: 1;
+    }
+
+    .active.left,
+    .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+  }
+
+  .carousel-control {
+    z-index: 2;
+  }
 }
 
 h1, h4 {

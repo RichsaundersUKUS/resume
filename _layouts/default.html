@@ -38,14 +38,26 @@
 
     <div class="jumbotron vertical-center text-center">
       <div class="container">
-          <h1>Michael Daffin</h1>
-          <p>Software Developer/Systems Adminstratior</p>
+        <h1>Michael Daffin</h1>
+        <div id="job-titles" data-interval="3500" data-pause="" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <p>Software Engineer</p>
+            </div>
+            <div class="item">
+              <p>Linux Systems Adminstratior</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="container">
       {{ content }}
     </div>
+
+    <script src="{{ site.baseurl }}/components/jquery/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/components/bootstrap/js/bootstrap.min.js"></script>
 
     {% include analytics.html %}
   </body>
