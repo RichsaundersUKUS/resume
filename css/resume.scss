@@ -28,6 +28,10 @@ html, body {
   display: inline-block;
 }
 
+.jumbotron h1 {
+  font-weight: 700;
+}
+
 .jumbotron .container > * {
   text-align: center;
   color: #FFFFFF;
@@ -63,11 +67,34 @@ html, body {
 }
 
 h1, h4 {
-  font-weight: 700;
   margin-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
   font-family: 'Open Sans', sans-serif !important;
   margin-bottom: 20px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul > li .ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+ul > li .ability-score .glyphicon {
+  color: #DFE0E0;
+  font-size: 14px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+ul > li .ability-score .glyphicon.filled {
+  color: #22A39F;
 }
