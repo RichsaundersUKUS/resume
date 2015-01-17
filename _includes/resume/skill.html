@@ -1,8 +1,24 @@
-<li>
-  <span class="ability-title">{{ skill.name }}</span>
-  <span class="ability-score">
-    {% for i in (0..4) %}
-    <span class="glyphicon glyphicon-star {% if i < skill.stars %}filled{% endif %}"></span>
-    {% endfor %}
-  </span>
-</li>
+<h2>Abilities</h2>
+{% for skillgroup in site.data.skills %}
+{% capture skilllimit %}{{ skillgroup.skills | size | plus:1 | divided_by:2 }}{% endcapture %}
+<h3>{{ skillgroup.name }}</h3>
+<div class="row">
+  {% for i in (0..1) %}
+  {% capture skilloffset %}{{ skilllimit | times:i }}{% endcapture %}
+  <div class="col-md-6">
+    <ul class="no-bullets">
+      {% for skill in skillgroup.skills limit:skilllimit offset:skilloffset %}
+      <li>
+        <span class="ability-title">{{ skill.name }}</span>
+        <span class="ability-score">
+          {% for i in (0..4) %}
+          <span class="glyphicon glyphicon-star {% if i < skill.rank %}filled{% endif %}"></span>
+          {% endfor %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
