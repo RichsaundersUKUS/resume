@@ -1,0 +1,75 @@
+- name: Programming Languages
+  skills:
+    - name: Python
+      stars: 5
+    - name: C/C++
+      stars: 5
+    - name: Bash/shell scripting
+      stars: 5
+    - name: Golang
+      stars: 4
+    - name: NodeJS
+      stars: 4
+    - name: Javascript
+      stars: 4
+    - name: HTML(5)
+      stars: 4
+    - name: CSS(3)
+      stars: 3
+    - name: Golang
+      stars: 3
+    - name: QtQuick
+      stars: 3
+    - name: PHP
+      stars: 3
+    - name: Java
+      stars: 2
+    - name: Ruby
+      stars: 1
+
+- name: Tools
+  skills:
+    - name: Vagrant
+      stars: 5
+    - name: Docker
+      stars: 5
+    - name: Libvirt/qemu
+      stars: 4
+    - name: Xen server
+      stars: 5
+    - name: Openstack
+      stars: 3
+    - name: MySQL
+      stars: 5
+    - name: Redis
+      stars: 4
+    - name: RabbitMQ
+      stars: 4
+    - name: MongoDB
+      stars: 3
+    - name: KairosDB
+      stars: 4
+    - name: Hadoop
+      stars: 5
+    - name: Cassandra
+      stars: 3
+    - name: Elasticsearch
+      stars: 3
+    - name: Archlinux
+      stars: 5
+    - name: Ubuntu
+      stars: 4
+    - name: Centos
+      stars: 5
+    - name: LDAP/Kerberos
+      stars: 2
+    - name: Nginx
+      stars: 5
+    - name: Apache
+      stars: 4
+    - name: Lighttpd
+      stars: 4
+    - name: Chef
+      stars: 4
+    - name: Networking
+      stars: 4

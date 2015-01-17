@@ -1,8 +1,8 @@
 <li>
-  <span class="ability-title">{{ include.skill }}</span>
+  <span class="ability-title">{{ skill.name }}</span>
   <span class="ability-score">
     {% for i in (0..4) %}
-    <span class="glyphicon glyphicon-star {% if i < include.stars %}filled{% endif %}"></span>
+    <span class="glyphicon glyphicon-star {% if i < skill.stars %}filled{% endif %}"></span>
     {% endfor %}
   </span>
 </li>
